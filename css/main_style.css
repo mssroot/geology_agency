@@ -1,0 +1,86 @@
+.bg-4 {
+    background-color: #2f2f2f;
+    color: #fff;
+}
+
+.container-footer {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.social_networks {
+}
+
+.company_name {
+    font-family: Perpetua;
+    font-size: 30px;
+    color: black;
+}
+
+.logo1 {
+
+}
+
+.logo2 {
+}
+
+.text_color {
+    color: black;
+}
+
+body {margin:25px;}
+
+div.polaroid {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+div.polaroid-map {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.post_date {
+    text-align: center;
+    font-family: Forte;
+}
+
+.post_title {
+    text-align: left;
+    font-family: Perpetua;
+}
+
+div.img {
+    border: 1px solid #ccc;
+}
+
+div.img:hover {
+    border: 1px solid blue;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+.forma-jalob {
+    font-family: Lucida Sans Typewriter;
+    fotn-size: 20px;
+    color: #3b5998;
+}
+
+
+.home_info_title {
+    font: bold;
+    font-size: 20px;
+    color: #3b5998;
+}
