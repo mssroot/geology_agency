@@ -1,0 +1,43 @@
+<script type="text/javascript">
+  <!--
+  if (screen.width <= 800) {
+    window.location = "http://m.domain.com";
+  }
+  //-->
+</script>
+
+RewriteEngine On
+# Check for mime types commonly accepted by mobile devices
+RewriteCond %{HTTP_ACCEPT} "text\/vnd\.wap\.wml|application\/vnd\.wap\.xhtml\+xml" [NC]
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^ http://m.domain.com%{REQUEST_URI} [R,L]
+
+<script type="text/javascript">
+<!--
+if (screen.width <= 699) {
+document.location = "mobile.html";
+}
+//-->
+</script>
+
+<script language=javascript>
+<!--
+if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+   location.replace("http://url-to-send-them/iphone.html");
+}
+-->
+</script>
+
+<script type="text/javascript">
+  <!--
+  if (screen.width <= 800) {
+    window.location = "http://m.domain.com";
+  }
+  //-->
+</script>
+
+RewriteEngine On
+# Check for mime types commonly accepted by mobile devices
+RewriteCond %{HTTP_ACCEPT} "text\/vnd\.wap\.wml|application\/vnd\.wap\.xhtml\+xml" [NC]
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^ http://m.domain.com%{REQUEST_URI} [R,L]

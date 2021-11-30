@@ -1,0 +1,75 @@
+CREATE DATABASE `center-lab` ;
+
+
+CREATE TABLE `home` (
+    `home_id` INT( 10 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+    `slider_file` VARCHAR( 100 ) NOT NULL ,
+    `slider_type` VARCHAR( 10 ) NOT NULL ,
+    `slider_size` INT NOT NULL,
+
+    `img_file` VARCHAR( 100 ) NOT NULL ,
+    `img_type` VARCHAR( 10 ) NOT NULL ,
+    `img_size` INT NOT NULL,
+
+    `home_info` TEXT NOT NULL
+) ENGINE = MYISAM ;
+
+
+`insert_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP;
+
+
+create table pages (
+	pages_id int not null PRIMARY KEY,
+
+    time_work_title varchar(255) not null,
+    time_work_desc text not null,
+    time_work_active int not null,
+
+    need_co_title varchar(255) not null,
+    need_co_desc text not null,
+    need_co_active int not null,
+
+    price_title varchar(255) not null,
+    price_desc text not null,
+    price_active int not null,
+
+    catalog_info_title varchar(255) not null,
+    catalog_info_desc text not null,
+    catalog_info_active int not null,
+
+    about_us_title varchar(255) not null,
+    about_us_desc text not null,
+    about_us_active int not null,
+
+    history_our_title varchar(255) not null,
+    history_our_desc text not null,
+    history_our_active int not null,
+
+    vacancy_title varchar(255) not null,
+    vacancy_desc text not null,
+    vacancy_active int not null,
+
+    legal_address_title varchar(255) not null,
+    legal_address_desc text not null,
+    legal_address_active int not null,
+
+    mail_address_title varchar(255) not null,
+    mail_address_desc text not null,
+    mail_address_active int not null,
+
+    plan_transit_title varchar(255) not null,
+    plan_transit_desc text not null,
+    plan_transit_active int not null,
+
+    contact_info_title varchar(255) not null,
+    contact_info_desc text not null,
+    contact_info_active int not null,
+
+    bank_props_title varchar(255) not null,
+    bank_props_desc text not null,
+    bank_props_active int not null,
+
+    pages_time TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+)ENGINE MYISAM;
+
+
